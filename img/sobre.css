@@ -1,0 +1,46 @@
+body{
+    background-image: url();
+    width: 500px;
+    height: 500px;
+    background-size: 1800px;
+    
+}
+.box {
+   
+    margin-left: 435px;
+    margin-top: 50px;
+    width: 2000%;
+    max-width: 1000px;
+    border: 10px solid rgb(82, 73, 73);
+    border-radius: 100px;
+    background: rgba(51, 47, 47, 0.3);
+}
+
+h1 {
+    color: rgb(53, 8, 0);
+    text-align: center;
+    font-size: 50px;
+    font-family:fantasy;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+li {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.CLASSE1{
+color:blue;
+}
+
+.CLASSE2{
+    color:green;
+}
+
