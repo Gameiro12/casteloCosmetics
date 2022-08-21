@@ -30,12 +30,13 @@
         </ul>
       </div>
       </header>
+        <center><p>Você será redirecionado em  <b id="number"></b></p> </center>
+        
+        
+
+      
     <section class="banner04">
-      <div class="texto">
-        <div class="botoes10">
-      <button><a class="n-overlay" href="index.html">voltar para o Home</button></a>
-      </div>
-      </div>
+      
     
     </section>
 
@@ -46,5 +47,15 @@
     <div id="div_fixa3"><a href="https://g1.globo.com/sc/santa-catarina/especial-publicitario/beauty-care/beauty-care/" target="_blank"> <img src="img/download.png" width="35"></a></div>
     <!-- <a href='https://br.freepik.com/fotos-vetores-gratis/flores-pastel'>Flores pastel vetor criado por pikisuperstar - br.freepik.com</a> -->
     </footer>
+
+    <script>
+      var n = 4;
+      var l = document.getElementById("number");
+      window.setInterval(function(){
+        l.innerHTML = n;
+        n--;
+      },1000);
+  
+  </script>
 </body>
 </html>
