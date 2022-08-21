@@ -16,26 +16,22 @@
 </head>
 
 <body>
-    <nav>
-
+    <header>
         <div class="div1">
-
-            <h1><img src="img/Castelo.png"></h1>
+          <img src="img/Castelo.png" />
         </div>
-
         <div class="logo">
-            <a href="index.html">Castelo Cosmetics</a>
+            <h1>Castelo Cosmetics</h1>
         </div>
-
-        <ul>
-            <li> <a href="index.html"> Home </a> </li>
-            <li> <a href="sobre.html"> Sobre </a> </li>
-            <li> <a href="produtos.html"> Produtos </a> </li>
-            <a></a>
-
+  
+        <div class="menu">
+          <ul>
+          <td><button><a href="index.html"> Home </a></button></td>
+          <td><button><a href="sobre.html"> Sobre </a></button></td>
+          <td><button><a href="produtos.html"> Produtos </a></button></td>
         </ul>
-
-    </nav>
+      </div>
+      </header>
     <div id="div_fixa"><a href="https://wa.me/5585997323691" target="_blank"> <img src="img/api-whatsapp-site.jpg" width="35"></a>
     </div>
     <div id="div_fixa1"><a href="https://www.instagram.com/coosmeticscastelo/" target="_blank"> <img
@@ -46,12 +42,53 @@
             target="_blank"> <img src="img/download.png" width="35"></a></div>
 
 
-    <style type="text/css">
-
-    </style>
-
     <section class="banner01">
-        <style>
+
+        <div class="box5">
+
+                    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+                        <input type=hidden name="orgid" value="00D8V00000294J7">
+                        <input type=hidden name="retURL" value="http://127.0.0.1:5500/cadastroconcluido.html">
+
+                        <legend><b>Fórmulário de Clientes</b></legend>
+                        <br><br><br>
+
+                        <div class="inputBox">
+                            <label for="name">Nome do contato</label><br>
+                            <input id="name" maxlength="40" name="name" size="20" type="text" required />
+                            <br>
+                            <label for="email">Email</label>
+                            <br>
+                            <input id="email" maxlength="80" name="email" size="20" type="text" required />
+                            <br>
+                            <label for="phone">Telefone</label>
+                            <br>
+                            <input id="phone" maxlength="40" name="phone" size="20" type="text" required />
+                            <br>
+                            <label for="subject">Assunto</label>
+                            <br>
+                            <input id="subject" maxlength="80" name="subject" size="20" type="text" />
+                            <br>
+                            <label for="description">Descrição</label>
+                            <br>
+                            <textarea name="description"></textarea>
+                            <br>
+                            <br>
+                            <center><input class="formbutton" type="submit"></center>   <br>
+                        </div>
+                     
+                        <div class="texto">
+                        <div class="botoes0">   
+                        <button><a class="n-overlay" href="formulario.html">voltar</button></a>
+                    
+                         </div>
+                         
+                </fieldset>
+                </form>
+               </div>
+             </div>   
+    <style>
             body {
                 font-family: 'Cinzel', serif;
                 background-image: linear-gradient(to right, rgba(237, 111, 235, 0.576), rgb(17, 54, 71));
@@ -59,14 +96,11 @@
 
             .box5 {
                 color: white;
-                position: absolute;
-                top: 50%;
-                left: 52%;
-                transform: translate(-50%, -50%);
                 background-color: rgba(124, 16, 16, 0.201);
                 padding: 15px;
                 border-radius: 15px;
                 width: 25%;
+                
             }
 
             fieldset {
@@ -82,8 +116,7 @@
             }
 
             .inputBox {
-                position: relative;
-                text-align: left;
+                text-align: center;
             }
 
             .inputUser {
@@ -93,12 +126,11 @@
                 outline: none;
                 color: white;
                 font-size: 15px;
-                width: 100%;
                 letter-spacing: 2px;
             }
 
             .labelInput {
-                position: absolute;
+                
                 top: 0px;
                 left: 0px;
                 pointer-events: none;
@@ -127,9 +159,28 @@
             #submit:hover {
                 background-image: linear-gradient(to right, rgb(108, 150, 197), rgb(195, 19, 172));
             }
+            .texto .botoes0 button {
+                height: 30px;
+                width: 113px;
+                border-radius: 4px;
+                border: 0;
+                margin: 0 10px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 0 10px;
+                cursor: pointer;
+                outline: none;
+                transition: 0.3s;
+                background: #50a4e0;
+                color: #fff;
+              }
+              .texto a{
+                text-decoration: none;
+                color: #fff;
+              }
 
             .formbutton {
-                display: block;
+                
                 padding: 6px;
                 background: #50a4e0;
                 color: #fff;
@@ -141,57 +192,7 @@
                 transition: 0.2s;
             }
         </style>
-        </head>
-
-        <body>
-            <div class="box5">
-
-                <fieldset>
-
-                    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
-
-                        <input type=hidden name="orgid" value="00D8V00000294J7">
-                        <input type=hidden name="retURL" value="http://127.0.0.1:5500/cadastroconcluido.html">
-
-                        <legend><b>Fórmulário de Clientes</b></legend>
-                        <br><br><br>
-
-                        <div class="inputBox">
-                            <label for="name">Nome do contato</label>
-                            <input id="name" maxlength="40" name="name" size="20" type="text" required />
-                            <br><br>
-                        </div>
-
-                        <div class="inputBox">
-                            <label for="email">Email</label>
-                            <input id="email" maxlength="80" name="email" size="20" type="text" required /><br>
-                        </div>
-                        <br>
-
-                        <div class="inputBox">
-                            <label for="phone">Telefone</label>
-                            <input id="phone" maxlength="40" name="phone" size="20" type="text" required /><br>
-                        </div>
-                        <br>
-
-                        <div class="inputBox">
-                            <label for="subject">Assunto</label>
-                            <input id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
-                        </div>
-                        <br>
-
-                        <div class="inputBox">
-                            <label for="description">Descrição</label>
-                            <textarea name="description"></textarea><br>
-                        </div>
-                        <br><br><br>
-                        
-                        <center><input class="formbutton" type="submit"></center><br>
-                </fieldset>
-
-
-                </form>
-            </div>
-        </body>
+            
+    </body>
 
 </html>
